@@ -10,5 +10,5 @@
 添加依赖关系：
  
      dependencies {
-	         implementation 'com.github.mraben:Tablayout-master:Tag'
+	         implementation 'com.github.mraben:Tablayout-master:v1.0.0'
 	 }
