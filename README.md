@@ -10,5 +10,5 @@
 添加依赖关系：
  
      dependencies {
-	        compile 'com.github.CorruptWood:Tablayout:1.1.3'
+	         implementation 'com.github.mraben:Tablayout-master:Tag'
 	 }
