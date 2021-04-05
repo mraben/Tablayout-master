@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:orientation="vertical"
+    tools:context="com.zdm.demo.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#fff" />
+
+    <com.zdm.tablayout.TabLayout
+        android:id="@+id/tabLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#fff"
+        app:tabResId="@layout/tab_view_one"
+        app:titleSelectColor="#1a93e9"
+        app:titleUnSelectColor="#333333" />
+
+    <com.zdm.tablayout.TabLayout
+        android:id="@+id/tabLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="2dp"
+        android:background="#fff"
+        app:isScroll="true"
+        app:lineSelectColor="#ff6633"
+        app:tabResId="@layout/tab_view_two"
+        app:titleSelectColor="#ff6633"
+        app:titleSelectSize="14sp"
+        app:titleUnSelectColor="#333333"
+        app:titleUnSelectSize="16sp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="1px"
+        android:background="#fff" />
+
+    <com.zdm.tablayout.TabLayout
+        android:id="@+id/tabLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="2dp"
+        android:background="#fff"
+        app:subtitleSelectColor="#3636ff"
+        app:subtitleUnSelectColor="#6633ff"
+        app:tabResId="@layout/tab_view_three"
+        app:titleSelectColor="#ff3366"
+        app:titleUnSelectColor="#888888" />
+
+    <com.zdm.tablayout.TabLayout
+        android:id="@+id/tabLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#fff"
+        app:lineSelectColor="#ff6633"
+        app:subtitleSelectSize="14sp"
+        app:subtitleUnSelectSize="16sp"
+        app:tabResId="@layout/tab_view_four"
+        app:titleSelectSize="14sp"
+        app:titleUnSelectSize="16sp"
+        app:useEntityColor="true" />
+
+    <com.zdm.tablayout.TabLayout
+        android:id="@+id/tabLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#fff"
+        app:tabResId="@layout/tab_view_one" />
+
+    <com.zdm.tablayout.TabLayout
+        android:id="@+id/tabLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#fff"
+        app:lineSelectColor="#ff6633"
+        app:tabResId="@layout/tab_view_six"
+        app:titleSelectColor="#ff6633"
+        app:titleUnSelectColor="#333333" />
+
+</LinearLayout>
